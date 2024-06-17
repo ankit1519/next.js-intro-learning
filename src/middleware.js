@@ -8,7 +8,6 @@ export function middleware(request){
 
     return NextResponse.redirect(new URL("/login",request.url));
 }
-
 export const config={
     matcher:["/about/:path*","/studentlist/:path*"]
 }
